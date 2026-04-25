@@ -25,6 +25,8 @@ EduSpectroプロジェクトの公式ドキュメントサイトへようこそ�
 ### オープンソース
 回路図、マイコンのファームウェア(Arduino IDE)、3Dモデル(STLファイル)、測定解析プログラム(Processing)は各リポジトリにMITライセンスと記載しています。無保証ですが、自由にカスタマイズしてお使いください。
 <br>
+<br>
+<br>
 ## EduSpectro4Xについて
 PCにUSBで接続し、露光時間設定とデータコマンドを受け、データを出力します。EduSpectroLabはProcessingプログラムで書かれていますが、他の言語でもシリアル入出力ができるものであれば通信が可能です。
 回路について簡単な説明を行い、その後、RP2350のプログラムについて説明します。
@@ -60,8 +62,10 @@ exp:xxxx: 露光時間を xxxx ミリ秒に設定します。 （例: exp:1000 �
 1. Header (4 bytes): 0x00, 0x00, 0xFF, 0xFF
 2. Payload (2298 bytes): 1149点のデータ。各点は 16bit 符号なし整数 (Little Endian)。
 3. Footer (4 bytes): 0x0F, 0x0F, 0x0F, 0x0F
-
-## EduSpectro Lab
+<br>
+<br>
+<br>
+## EduSpectroLabについて
 
 
 
