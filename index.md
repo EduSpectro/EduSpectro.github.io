@@ -58,11 +58,10 @@ exp:xxxx: 露光時間を xxxx ミリ秒に設定します。 （例: exp:1000 �
 1. Header (4 bytes): 0x00, 0x00, 0xFF, 0xFF
 2. Payload (2298 bytes): 1149点のデータ。各点は 16bit 符号なし整数 (Little Endian)。
 3. Footer (4 bytes): 0x0F, 0x0F, 0x0F, 0x0F
-<br>
-<br>
-<br>
-## EduSpectroLabについて
 
+
+
+## EduSpectroLabについて
 
 
 - [組み立てガイド（準備中）](#)
