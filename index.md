@@ -12,7 +12,7 @@ EduSpectroプロジェクトの公式ドキュメントサイトへようこそ�
 電子工作レベルの知識と3Dモデリングで分光器が自作できるのです。
 <br>
 
-![EduSpectro Stationの構成](images/構成図.png)
+![EduSpectro Stationの構成](images/Layout.png)
 
 ![EduSpectro Station](images/EduSpectroStation.png)
 <br>
@@ -20,7 +20,7 @@ EduSpectroプロジェクトの公式ドキュメントサイトへようこそ�
 分光データの取得と解析はProcessingというプログラム言語で作成した**EduSpectroLab** を使用します。Windows, Mac, Linux問わず使用することができます。露光時間の制御、繰り返し測定による平均化とピクセル方向の移動平均などのデータ処理、参照データのオーバーレイや透過・吸収測定での誤差の大きい波長領域の表示機能といった測定支援も行います。
 <br>
 
-![EduSpectro Labの例](images/Neon測定.png)
+![EduSpectro Labの例](images/Neon.png)
 <br>
 ### オープンソース
 回路図、マイコンのファームウェア(Arduino IDE)、3Dモデル(STLファイル)、測定解析プログラム(Processing)は各リポジトリにMITライセンスと記載しています。無保証ですが、自由にカスタマイズしてお使いください。
@@ -39,13 +39,13 @@ RP2350マイコンから200kHzのクロックパルスと測定ごとのスタ�
 透過・吸収測定に使用する白色LEDは販売終了となっている豊田合成の手持ち在庫を使用しています。無くなり次第Seoul Semiconductor Inc.の「LED SUNLIKE COOL WHT 5000K 3030」に変更予定です。定電流素子を使用して光量の安定化を図っています。
 <br>
 
-![EduSpectro4Xの回路](images/回路図.png)
+![EduSpectro4Xの回路](images/Sch.png)
 <br>
 ### RP2350プログラムの概説
 RP2350はラズベリーパイ財団が開発したマイコンで前世代のRP2040でバグのあった12ビットのアナログ入力の精度が改善されています。また、PIOというCPUを介さずに高速かつ正確なタイミングでI/Oピンを制御できるハードウェアを備えています。この機能を使って分光センサー用のクロックパルスを作成しています。
 10回累積計測して出力することでノイズの軽減を行なっています。また、分光センサーC12880MAは288画素ですが、Catmull-Rom3次補間により本来のサンプリング点（4点に1点の生データ）を維持しつつ、視覚的に自然で、ピーク位置を特定しやすい 1149 点のデータを生成します。
 
-![Arduinoプログラム](images/Arduinoプログラム.png)
+![Arduinoプログラム](images/Arduino_4X.png)
 
 ### 通信プロトコル（他言語開発用）
 PythonやC#、LabVIEWなど、他のプログラミング言語でも本機を制御できるように、通信仕様を公開します。
