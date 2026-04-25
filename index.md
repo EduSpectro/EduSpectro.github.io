@@ -12,7 +12,7 @@ EduSpectroプロジェクトの公式ドキュメントサイトへようこそ�
 電子工作レベルの知識と3Dモデリングで分光器が自作できるのです。
 ![EduSpectro Stationの構成](images/構成図.png)
 
-![EduSpectro Station](images/EduSpectroStation.jpg)
+![EduSpectro Station](images/EduSpectroStation.png)
 
 ### EduSpectro Lab
 分光データの取得と解析はProcessingというプログラム言語で作成したEduSpectroLabを使用します。Windows, Mac, Linux問わず使用することができます。露光時間の制御、繰り返し測定による平均化とピクセル方向の移動平均などのデータ処理、参照データのオーバーレイや透過・吸収測定での誤差の大きい波長領域の表示機能といった測定支援も行います。
@@ -20,6 +20,17 @@ EduSpectroプロジェクトの公式ドキュメントサイトへようこそ�
 
 ### オープンソース
 回路図、マイコンのファームウェア(Arduino IDE)、3Dモデル(STLファイル)、測定解析プログラム(Processing)は各リポジトリにMITライセンスと記載しています。無保証ですが、自由にカスタマイズしてお使いください。
+
+## EduSpectro4X
+分光器の中核は分光センサーC12880MAです。仕様については
+[浜松ホトニクスのWebサイト](https://www.hamamatsu.com/jp/ja/product/optical-sensors/spectrometers/mini-spectrometer/C12880MA.html)
+をご覧ください。
+RP2350マイコンから200kHzのクロックパルスと測定ごとのスタートパルスを入力すると、ビデオ端子から0-5Vの分光データを出力します。ビデオ端子の消費電流を抑えるためにバッファアンプを使用します。バッファアンプから抵抗で分圧してRP2350マイコンの12ビットADCに入力しています。
+透過・吸収測定に使用する白色LEDは販売終了となっている豊田合成の手持ち在庫を使用しています。無くなり次第Seoul Semiconductor Inc.の「LED SUNLIKE COOL WHT 5000K 3030」に変更予定です。定電流素子を使用して光量の安定化を図っています。
+
+
+
+### オープンソース
 
 
 ## 説明の流れ
