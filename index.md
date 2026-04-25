@@ -12,6 +12,8 @@ EduSpectroプロジェクトの公式ドキュメントサイトへようこそ�
 電子工作レベルの知識と3Dモデリングで分光器が自作できるのです。
 ![EduSpectro Stationの構成](images/構成図.png)
 
+![EduSpectro Station](images/EduSpectroStation.jpg)
+
 ### EduSpectro Lab
 分光データの取得と解析はProcessingというプログラム言語で作成したEduSpectroLabを使用します。Windows, Mac, Linux問わず使用することができます。露光時間の制御、繰り返し測定による平均化とピクセル方向の移動平均などのデータ処理、参照データのオーバーレイや透過・吸収測定での誤差の大きい波長領域の表示機能といった測定支援も行います。
 ![EduSpectro Labの例](images/Neon測定.png)
