@@ -47,7 +47,6 @@ RP2350はラズベリーパイ財団が開発したマイコンで前世代のRP
 
 <br>
 <br>
-
 ![Arduinoプログラム](images/Arduinoプログラム.png)
 <br>
 
