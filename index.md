@@ -120,6 +120,29 @@ A列が校正済みの波長データ、B列が測定データ、C列が測定�
 ![データファイル](images/dataFile.png)
 <br>
 
+## EduSpectroStationについて
+分光センサーのスリット中心をキュベット底面から15mm（Zディメンジョン）として、投光器を含む光軸の高さをそろえています。また、遮光のために基板と測定部には遮蔽版を設けています。
+<br>
+
+![内部の構成](images/insidePhoto.png)
+<br>
+<br>
+
+![3Dモデル](images/3DModel.png)
+<br>
+<br>
+
+![遮蔽版](images/3DCover.png)
+<br>
+<br>
+
+![STLファイルからプリント](images/3DPrintable.png)
+<br>
+
+
+
+
+
 - [組み立てガイド（準備中）](#)
 - [アプリの使い方（準備中）](#)
 
