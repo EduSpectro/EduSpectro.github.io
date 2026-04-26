@@ -59,7 +59,15 @@ exp:xxxx: 露光時間を xxxx ミリ秒に設定します。 （例: exp:1000 �
 2. Payload (2298 bytes): 1149点のデータ。各点は 16bit 符号なし整数 (Little Endian)。
 3. Footer (4 bytes): 0x0F, 0x0F, 0x0F, 0x0F
 
+<br>
+<br>
+
 **EduSpectro4Xファームウェアと回路図のダウンロードはEduSpectro4Xから行います。**
+[EduSpectroStation(筐体・光学系設計データ)はこちら](https://github.com/EduSpectro/EduSpectro4X)
+
+<br>
+<br>
+
 
 
 ## EduSpectroLabについて
@@ -118,9 +126,16 @@ A列が校正済みの波長データ、B列が測定データ、C列が測定�
 <br>
 
 ![データファイル](images/dataFile.png)
+
+<br>
 <br>
 
 **EduSpectroLabアプリケーションのダウンロードはEduSpectroLabから行います。**
+[EduSpectroStation(筐体・光学系設計データ)はこちら](https://github.com/EduSpectro/EduSpectroLab)
+
+<br>
+<br>
+
 
 
 ## EduSpectroStationについて
@@ -146,9 +161,9 @@ A列が校正済みの波長データ、B列が測定データ、C列が測定�
 
 ![STLファイルからプリント](images/3DPrintable.png)
 <br>
+<br>
 
 **3DモデルデータのダウンロードはEduSpectroStationから行います。**
-**EduSpectroStation(筐体・光学系設計データ)**
 [EduSpectroStation(筐体・光学系設計データ)はこちら](https://github.com/EduSpectro/EduSpectroStation)
 
 <br>
