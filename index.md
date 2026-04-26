@@ -148,8 +148,11 @@ A列が校正済みの波長データ、B列が測定データ、C列が測定�
 <br>
 
 **3DモデルデータのダウンロードはEduSpectroStationから行います。**
+**EduSpectroStation(筐体・光学系設計データ)**
+[EduSpectroStation(筐体・光学系設計データ)はこちら](https://github.com/EduSpectro/EduSpectroStation)
 
-
+<br>
+<br>
 
 ## 活用事例(準備中)
 - 植物の葉のスペクトルを測る(準備中)
