@@ -62,7 +62,7 @@ exp:xxxx: 露光時間を xxxx ミリ秒に設定します。 （例: exp:1000 �
 <br>
 <br>
 
-**EduSpectro4Xファームウェアと回路図のダウンロードはEduSpectro4Xから行います。**
+**EduSpectro4Xファームウェアと回路図のダウンロードはEduSpectro4Xから行います。** <br>
 [EduSpectro4X(duSpectro4Xファームウェアと回路図)はこちら](https://github.com/EduSpectro/EduSpectro4X)
 
 <br>
@@ -130,7 +130,7 @@ A列が校正済みの波長データ、B列が測定データ、C列が測定�
 <br>
 <br>
 
-**EduSpectroLab計測解析アプリケーションのダウンロードはEduSpectroLabから行います。**
+**EduSpectroLab計測解析アプリケーションのダウンロードはEduSpectroLabから行います。**　<br>
 [EduSpectroLab(計測解析アプリケーション)はこちら](https://github.com/EduSpectro/EduSpectroLab)
 
 <br>
@@ -163,7 +163,7 @@ A列が校正済みの波長データ、B列が測定データ、C列が測定�
 <br>
 <br>
 
-**3DモデルデータのダウンロードはEduSpectroStationから行います。**
+**3DモデルデータのダウンロードはEduSpectroStationから行います。**　<br>
 [EduSpectroStation(筐体・光学系設計データ)はこちら](https://github.com/EduSpectro/EduSpectroStation)
 
 <br>
