@@ -69,15 +69,45 @@ Processingはプログラムをアプリケーションとしてエクスポー�
 
 ### ポート選択
 プログラムを起動するとシリアルポート選択画面が表示されます。EduSpectoro4Xを接続すると新たにEduSpectoro4Xのポートが現れますので選択します。
+<br>
+
+![通信ポート選択](images/SerialPort.png)
+<br>
 
 ### データ設定
 
+<br>
+
+![オートモード](images/AutoMode.png)
+<br>
+
 ### 測定モード
 
-### 測定補助機能
+<br>
 
+![エミッションダーク補正なし](images/Emission-1.png)
+<br>
+<br>
+
+![エミッションダーク補正あり](images/Emission-2.png)
+<br>
+<br>
+
+![参照光キャリブレーション](images/RefCalib.png)
+<br>
+<br>
+
+![透過](images/Trans.png)
+<br>
+<br>
+
+![吸収](images/Abs.png)
+<br>
 ### ファイル保存
+<br>
 
+![データファイル](images/dataFile.png)
+<br>
 
 - [組み立てガイド（準備中）](#)
 - [アプリの使い方（準備中）](#)
