@@ -1,3 +1,7 @@
+# <img src="images/logo_round.png" width="80" align="center"> EduSpectro 公式ガイド 🌈
+<br>
+
+
 # EduSpectro 公式ガイド 🌈
 
 「高校の理科室に、当たり前のように分光器を」
