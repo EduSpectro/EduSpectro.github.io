@@ -1,4 +1,4 @@
-# <img src="images/logo_round.png" width="80" align="center"> EduSpectro 公式ガイド 🌈
+# <img src="images/icon_ES_small.png" width="80" align="center"> EduSpectro 公式ガイド 🌈
 <br>
 
 
