@@ -174,3 +174,9 @@ A列が校正済みの波長データ、B列が測定データ、C列が測定�
 ## 活用事例(準備中)
 - 植物の葉のスペクトルを測る(準備中)
 - LEDライトの色を分析する(準備中)
+<br>
+<br>
+
+## 問い合わせなどは下記からお願いします
+[Discussions](https://github.com/orgs/EduSpectro/discussions/)
+
