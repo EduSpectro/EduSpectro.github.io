@@ -1,8 +1,6 @@
-# <img src="images/icon_ES_small.png" width="80" align="center"> EduSpectro 公式ガイド 🌈
+# <img src="images/icon_ES_small.png" width="250" align="center"> EduSpectro 公式ガイド
 <br>
 
-
-# EduSpectro 公式ガイド 🌈
 
 「高校の理科室に、当たり前のように分光器を」
 
