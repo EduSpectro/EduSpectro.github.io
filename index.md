@@ -16,7 +16,7 @@ EduSpectroプロジェクトの公式ドキュメントサイトへようこそ�
 
 ![スペクトル](images/Spectrum.png)
 
-![構成](images/Layout.png)
+![構成](images/SpectroVIEWLayout.png)
 <br>
 
 [SpectroVIEW(DVDを使った分光器)はこちら](https://github.com/EduSpectro/SpectroVIEW)
